@@ -1,0 +1,33 @@
+*{ 
+    font-family: "Raleway" , sans-serif;
+}
+
+body{
+    background-color: #f7f7f7;
+    color: #8e8e8e;
+}
+
+
+#Fondo {
+    background-image: url("../img/Banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+a {
+    text-decoration: none;
+    color: #8e8e8e;
+    font-size: 1.2rem;
+}
+
+
+#proyectos{
+    margin-top: 8rem;
+}
+
+@media (max-width: 768px) {
+    .navnbar-brand{
+        width: 100px;
+    }
+}
